@@ -25,7 +25,7 @@ LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
 OWNER_ID = int(getenv("OWNER_ID", ""))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "SANATANII_MUSIC_BOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ZEUS_MUSIC_ROBOT")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -86,7 +86,7 @@ clean = {}
 autoclean = []
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/141a211df290f86e8e41d-83957f2776aaf77c42.jpg"
+    "START_IMG_URL", "https://graph.org/file/2d7d3d23087a1aa432d7d-fa68ea67496f6d0183.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/f16f757fe9c10f81b67ef.jpg"
