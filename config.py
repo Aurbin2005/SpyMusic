@@ -23,9 +23,9 @@ SONG_DOWNLOAD_DURATION = int(
 
 LOGGER_ID = int(getenv("LOGGER_ID", ""))
 
-OWNER_ID = int(getenv("OWNER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", "8107605197"))
 
-BOT_USERNAME = getenv("BOT_USERNAME" , "ZEUS_MUSIC_ROBOT")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Aurbin_25x_music_bot")
 
 COMMAND_HANDLER = getenv("COMMAND_HANDLER", "! / .").split()
 
@@ -35,15 +35,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Ansuman-web/SpyMusic.git",
+    "https://github.com/Aurbin2005/SpyMusic.git",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "SPY")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_BOTCHAMBER_ll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ll_BOTCHAMBER_ll")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/aurbinmusicchannel")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/aurbinmusicsupport_group")
 
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "True")
